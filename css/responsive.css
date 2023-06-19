@@ -1,0 +1,295 @@
+@media (max-width: 426px) {
+  #blue_bar {
+    width: 800px;
+  }
+
+  /* #search_box {
+    display: none;
+  }
+
+  #post_bar {
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    max-height: 890px;
+    overflow-y: scroll;
+  }
+
+  #post_bar_home {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 13px;
+    width: 100%;
+  }
+
+  #post_bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  #notification_icon {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    transition: 0.3s;
+    position: relative;
+    right: -100px;
+  }
+
+  #messages_icon {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    transition: 0.3s;
+    position: relative;
+    right: -100px;
+  }
+
+  #icon_edit {
+    fill: #999898;
+    transition: 0.3s;
+    position: relative;
+    bottom: 10px;
+  }
+
+  #icon_delete {
+    fill: #999898;
+    transition: 0.3s;
+    position: relative;
+    bottom: 10px;
+  }
+
+  .flex-item-left {
+    padding: 10px;
+    flex: 5%;
+    float: left;
+    width: 50%;
+    height: 80%;
+    overflow: auto;
+    text-indent: 100%;
+    white-space: nowrap;
+  }
+
+  .flex-item-center {
+    padding: 10px;
+    flex: 80%;
+    float: left;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .flex-item-center::-webkit-scrollbar {
+    display: none;
+  }
+
+  #notif_alert {
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: -105px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    padding: 3px;
+    text-align: center;
+    font-size: 8px;
+    margin-top: -44px;
+  }
+
+  #message_alert {
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: -105px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    padding: 3px;
+    text-align: center;
+    font-size: 8px;
+    margin-top: -44px;
+  }
+
+  #search_button {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    transition: 0.3s;
+    display: block;
+  }
+
+  #search_button:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+
+  #textarea_home {
+    width: 100%;
+    position: relative;
+    right: 12px;
+  }
+
+  #posts_home {
+    width: 100%;
+    position: relative;
+    right: 20px;
+  }
+}
+*/
+
+  @media (max-width: 376px) {
+    #blue_bar {
+      height: 50px;
+      /* background-color: #405d9b; */
+      color: #d9dfeb;
+      width: 800px;
+    }
+  }
+
+  /*
+  #search_box {
+    display: none;
+  }
+
+  #post_bar {
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    max-height: 890px;
+    overflow-y: scroll;
+  }
+
+  #post_bar_home {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 13px;
+    width: 100%;
+  }
+
+  #post_bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  #notification_icon {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    transition: 0.3s;
+    position: relative;
+    right: -50px;
+  }
+
+  #messages_icon {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    transition: 0.3s;
+    position: relative;
+    right: -50px;
+  }
+
+  #icon_edit {
+    fill: #999898;
+    transition: 0.3s;
+    position: relative;
+    bottom: 10px;
+  }
+
+  #icon_delete {
+    fill: #999898;
+    transition: 0.3s;
+    position: relative;
+    bottom: 10px;
+  }
+
+  .flex-item-left {
+    padding: 10px;
+    flex: 5%;
+    float: left;
+    width: 50%;
+    height: 80%;
+    overflow: auto;
+    text-indent: 100%;
+    white-space: nowrap;
+  }
+
+  .flex-item-center {
+    padding: 10px;
+    flex: 80%;
+    float: left;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .flex-item-center::-webkit-scrollbar {
+    display: none;
+  }
+
+  #notif_alert {
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: -55px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    padding: 3px;
+    text-align: center;
+    font-size: 8px;
+    margin-top: -44px;
+  }
+
+  #message_alert {
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: -55px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    padding: 3px;
+    text-align: center;
+    font-size: 8px;
+    margin-top: -44px;
+  }
+
+  #search_button {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    transition: 0.3s;
+    display: block;
+  }
+
+  #search_button:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+
+  #textarea_home {
+    width: 100%;
+    position: relative;
+    right: 12px;
+  }
+
+  #posts_home {
+    width: 100%;
+    position: relative;
+    right: 20px;
+  } */
+}
